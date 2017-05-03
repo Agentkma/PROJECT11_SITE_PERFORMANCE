@@ -1,21 +1,21 @@
-/* Arvo */
+/* Arvo COMMENTED OUT EVERYTHING BELOW FONT-FAMILY NOW THAT USING GOOGLE FONT-WEB BASED*/
 @font-face {
-    font-family: "Arvo";
-    src: url("Arvo/Arvo-Regular.ttf") format('truetype');
+    font-family: "Arvo", serif;
+    /*src: url("Arvo/Arvo-Regular.ttf") format('truetype');*/
 }
 @font-face {
-    font-family: "Arvo";
-    font-weight: bold;
-    src: url("Arvo/Arvo-Bold.ttf") format('truetype');
+    font-family: "Arvo", serif;
+    /*font-weight: bold;
+    src: url("Arvo/Arvo-Bold.ttf") format('truetype');*/
 }
 @font-face {
-    font-family: "Arvo";
-    font-weight: bold;
+    font-family: "Arvo", serif;
+    /*font-weight: bold;
     font-style: italic;
-    src: url("Arvo/Arvo-BoldItalic.ttf") format('truetype');
+    src: url("Arvo/Arvo-BoldItalic.ttf") format('truetype');*/
 }
 @font-face {
-    font-family: "Arvo";
-    font-style: italic;
-    src: url("Arvo/Arvo-Italic.ttf") format('truetype');
+    font-family: "Arvo", serif;
+    /*font-style: italic;
+    src: url("Arvo/Arvo-Italic.ttf") format('truetype');*/
 }
