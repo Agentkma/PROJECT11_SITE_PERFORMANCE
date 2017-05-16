@@ -61,8 +61,8 @@ gulp.task('sprites', function () {
     style: './sprite.css',
     format: 'jpg',
     // ... other optional options
-    // for example if you want to generate scss instead of css
-    processor: 'css' // make sure you have installed sprity-sass
+
+    // processor: 'css'
   })
   .pipe(gulpif('*.jpg', gulp.dest('img'), gulp.dest('css')))
 });
