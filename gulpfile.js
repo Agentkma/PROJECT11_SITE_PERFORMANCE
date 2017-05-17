@@ -57,9 +57,13 @@ gulp.task('sprites', function () {
   return sprity.src({
     src: 'img/avatars/*.jpg',
     out: 'img',
-    cssPath: 'img',
+    cssPath: '../img',
     style: './sprite.css',
     format: 'jpg',
+    dimension: [{
+      ratio: 1, dpi: 72},
+      {ratio: 3.76, dpi: 144}
+    ]
     // ... other optional options
 
     // processor: 'css'

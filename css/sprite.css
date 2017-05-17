@@ -1,40 +1,46 @@
 
 .icon {
-  background-image: url('img/sprite.jpg');
+  background-image: url('../img/sprite.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 3.76), (min-resolution: 144dpi) {
+  .icon {
+    background-image: url('../img/sprite@3.76x.jpg');
+    background-size: 82px 446px;
+  }
 }
 
 .icon-avatar1 {
   background-position: -0px -0px;
-  width: 188px;
-  height: 188px;
+  width: 50px;
+  height: 50px;
 }
 .icon-avatar2 {
-  background-position: -0px -188px;
-  width: 188px;
-  height: 188px;
+  background-position: -0px -50px;
+  width: 50px;
+  height: 50px;
 }
 .icon-avatar3 {
-  background-position: -0px -376px;
-  width: 188px;
-  height: 188px;
+  background-position: -0px -100px;
+  width: 50px;
+  height: 50px;
 }
 .icon-avatar4 {
-  background-position: -0px -564px;
-  width: 188px;
-  height: 188px;
+  background-position: -0px -150px;
+  width: 50px;
+  height: 50px;
 }
 .icon-avatar5 {
-  background-position: -0px -752px;
-  width: 308px;
-  height: 308px;
+  background-position: -0px -200px;
+  width: 82px;
+  height: 82px;
 }
 .icon-avatar6 {
-  background-position: -0px -1060px;
-  width: 308px;
-  height: 308px;
+  background-position: -0px -282px;
+  width: 82px;
+  height: 82px;
 }
 .icon-avatar7 {
-  background-position: -0px -1368px;
-  width: 308px;
-  height: 308px;
+  background-position: -0px -364px;
+  width: 82px;
+  height: 82px;
 }
