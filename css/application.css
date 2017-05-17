@@ -7208,89 +7208,91 @@ th {
     margin-right: 1rem;
     width: 50px;
 }
+.icon {
+  float: left;
+  margin-right: 1rem;
+  border-radius: 50%;
+}
+
+
 /* Ubuntu    COMMENTED OUT EVERYTHING BELOW FONT-FAMILY NOW THAT USING GOOGLE FONT-WEB BASED*/
 @font-face {
     font-family: "Ubuntu", sans-serif;
-    /*src: url("Ubuntu/Ubuntu-Regular.ttf") format('truetype');*/
+  
 }
 @font-face {
     font-family: "Ubuntu", sans-serif;
-    /*font-style: italic;
-    src: url("Ubuntu/Ubuntu-Italic.ttf") format('truetype');*/
 }
 @font-face {
     font-family: "Ubuntu", sans-serif;
-    /*font-weight: 300;
-    src: url("Ubuntu/Ubuntu-Light.ttf") format('truetype');*/
+
 }
 @font-face {
     font-family: "Ubuntu", sans-serif;
-    /*font-style: italic;
-    font-weight: 300;
-    src: url("Ubuntu/Ubuntu-LightItalic.ttf") format('truetype');*/
+
 }
 @font-face {
     font-family: "Ubuntu", sans-serif;
-    /*font-weight: 700;
-    src: url("Ubuntu/Ubuntu-Bold.ttf") format('truetype');*/
+
 }
 @font-face {
     font-family: "Ubuntu", sans-serif;
-    /*font-style: italic;
-    font-weight: 700;
-    src: url("Ubuntu/Ubuntu-BoldItalic.ttf") format('truetype');*/
+
 }
 @font-face {
     font-family: "Ubuntu", sans-serif;
-    /*font-weight: 500;
-    src: url("Ubuntu/Ubuntu-Medium.ttf") format('truetype');*/
+
 }
 @font-face {
     font-family: "Ubuntu", sans-serif;
-    /*font-style: italic;
-    font-weight: 500;
-    src: url("Ubuntu/Ubuntu-MediumItalic.ttf") format('truetype');*/
+
 }
 
 
 .icon {
-  background-image: url('img/sprite.jpg');
+  background-image: url('../img/sprite.jpg');
+}
+@media (-webkit-min-device-pixel-ratio: 3.76), (min-resolution: 144dpi) {
+  .icon {
+    background-image: url('../img/sprite@3.76x.jpg');
+    background-size: 82px 446px;
+  }
 }
 
 .icon-avatar1 {
   background-position: -0px -0px;
-  width: 188px;
-  height: 188px;
+  width: 50px;
+  height: 50px;
 }
 .icon-avatar2 {
-  background-position: -0px -188px;
-  width: 188px;
-  height: 188px;
+  background-position: -0px -50px;
+  width: 50px;
+  height: 50px;
 }
 .icon-avatar3 {
-  background-position: -0px -376px;
-  width: 188px;
-  height: 188px;
+  background-position: -0px -100px;
+  width: 50px;
+  height: 50px;
 }
 .icon-avatar4 {
-  background-position: -0px -564px;
-  width: 188px;
-  height: 188px;
+  background-position: -0px -150px;
+  width: 50px;
+  height: 50px;
 }
 .icon-avatar5 {
-  background-position: -0px -752px;
-  width: 308px;
-  height: 308px;
+  background-position: -0px -200px;
+  width: 82px;
+  height: 82px;
 }
 .icon-avatar6 {
-  background-position: -0px -1060px;
-  width: 308px;
-  height: 308px;
+  background-position: -0px -282px;
+  width: 82px;
+  height: 82px;
 }
 .icon-avatar7 {
-  background-position: -0px -1368px;
-  width: 308px;
-  height: 308px;
+  background-position: -0px -364px;
+  width: 82px;
+  height: 82px;
 }
 
 /*# sourceMappingURL=application.css.map */
