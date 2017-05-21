@@ -9,7 +9,8 @@ var gulp      = require('gulp'),
     imagemin  = require ('gulp-imagemin'),
     htmlmin   = require ('gulp-htmlmin'),
     gulpif    = require ('gulp-if'),
-    sprity    = require('sprity')
+    sprity    = require('sprity'),
+    gzip      = require('gulp-gzip')
 
     ;
 
@@ -60,8 +61,8 @@ gulp.task('sprites', function () {
     cssPath: '../img',
     style: './sprite.css',
     format: 'jpg',
-    dimension: [{
-      ratio: 1, dpi: 72},
+    dimension: [
+      {ratio: 1, dpi: 72},
       {ratio: 3.76, dpi: 144}
     ]
     // ... other optional options
@@ -82,7 +83,6 @@ gulp.task("concatCSS", ['sprites'], function () {
             "css/basics.css",
             "css/footer.css",
             "css/foundation.css",
-            "css/foundation.min.css",
             "css/hero.css",
             "css/menu.css",
             "css/modals.css",
@@ -111,9 +111,12 @@ gulp.task("minifyCSS",["concatCSS"], function () {
 
   return gulp.src("css/application.css")
       .pipe(uglifycss())
+
       // the rename module and method below creates a new file for minified file so we can keep original for review in console during development
       .pipe(rename('application.min.css'))
-      .pipe(gulp.dest('css'));
+      .pipe(gulp.dest('css'))
+      .pipe(gzip()) // NOT working....
+      .pipe(gulp.dest('dist/css'));
 });
 
 

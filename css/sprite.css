@@ -5,7 +5,7 @@
 @media (-webkit-min-device-pixel-ratio: 3.76), (min-resolution: 144dpi) {
   .icon {
     background-image: url('../img/sprite@3.76x.jpg');
-    background-size: 82px 446px;
+    background-size: 50px 350px;
   }
 }
 
@@ -31,16 +31,16 @@
 }
 .icon-avatar5 {
   background-position: -0px -200px;
-  width: 82px;
-  height: 82px;
+  width: 50px;
+  height: 50px;
 }
 .icon-avatar6 {
-  background-position: -0px -282px;
-  width: 82px;
-  height: 82px;
+  background-position: -0px -250px;
+  width: 50px;
+  height: 50px;
 }
 .icon-avatar7 {
-  background-position: -0px -364px;
-  width: 82px;
-  height: 82px;
+  background-position: -0px -300px;
+  width: 50px;
+  height: 50px;
 }

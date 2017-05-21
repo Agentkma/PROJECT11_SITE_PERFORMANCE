@@ -1,14 +1,28 @@
 .icon {
   float: left;
   margin-right: 1rem;
-  border-radius: 50%;
+
 }
+
+.icon-avatar1,
+.icon-avatar2,
+.icon-avatar3,
+.icon-avatar4,
+.icon-avatar5,
+.icon-avatar6,
+.icon-avatar7 {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+
 
 
 /* Ubuntu    COMMENTED OUT EVERYTHING BELOW FONT-FAMILY NOW THAT USING GOOGLE FONT-WEB BASED*/
 @font-face {
     font-family: "Ubuntu", sans-serif;
-  
+
 }
 @font-face {
     font-family: "Ubuntu", sans-serif;
