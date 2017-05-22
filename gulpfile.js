@@ -65,9 +65,6 @@ gulp.task('sprites', function () {
       {ratio: 1, dpi: 72},
       {ratio: 3.76, dpi: 144}
     ]
-    // ... other optional options
-
-    // processor: 'css'
   })
   .pipe(gulpif('*.jpg', gulp.dest('img'), gulp.dest('css')))
 });
@@ -147,7 +144,7 @@ gulp.task('minifyHTML', function() {
 
 // *******************BUILD ALL TASKS TO RUN AUTO*********************
 
-// gulp build task will auto mate the running of all our tasks; only have to run gulp in console
+// gulp build task will automate the running of all our tasks; only have to run gulp in console
 
 gulp.task("build", ['concatScripts', 'minifyScripts', 'concatCSS', 'minifyCSS', 'image', 'minifyHTML', 'sprites'], function () {
 
